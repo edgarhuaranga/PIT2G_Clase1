@@ -8,7 +8,8 @@
     tools:context="com.ehuaranga.apppit2_clase1.MainActivity">
 
     <TextView
-        android:textSize="30dp"
+        android:id="@+id/textview_saludo"
+        android:textSize="20dp"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:gravity="center_horizontal"
@@ -18,11 +19,13 @@
     <!-- comentario aqui -->
 
     <EditText
+        android:id="@+id/edittext_nombre"
         android:layout_width="match_parent"
-        android:layout_height="30dp"
+        android:layout_height="50dp"
         android:hint="Ingresa tu nombre"/>
 
     <Button
+        android:id="@+id/button_saludar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Saludar"/>
