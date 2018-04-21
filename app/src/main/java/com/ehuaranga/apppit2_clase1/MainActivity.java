@@ -23,11 +23,12 @@ public class MainActivity extends AppCompatActivity {
         editTextNombre = findViewById(R.id.edittext_nombre);
         buttonSaludar = findViewById(R.id.button_saludar);
 
-
     }
 
     public void Saludar(View view){
         Toast.makeText(this, "Has presionado el boton de  saludar",Toast.LENGTH_SHORT).show();
+        String miNombre = editTextNombre.getText().toString();
+        textViewSaludo.setText("Hola :> "+miNombre);
     }
 
 }
